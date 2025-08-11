@@ -5,6 +5,6 @@ import svgr from '@svgr/rollup';
 const isGitHubPages = process.env.GITHUB_PAGES === 'true';
 // https://vite.dev/config/
 export default defineConfig({
-  base: isGitHubPages ? '/portafolio/' : './',
+  base: isGitHubPages ? '/cv-main/' : './',
   plugins: [react(), svgr()],
 })
